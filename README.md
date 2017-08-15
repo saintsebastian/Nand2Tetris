@@ -3,6 +3,11 @@
 ### Week 1
 Elementary gates, their 16-bit variants, their multiway variants.
 
+### Week 2
+ALU, its parts (HalfAdder, FullAdder, Incrementor).
+
+Added two extra gates as a work-around for hdl's limitation.
+
 ### Basic API
 
 ```
@@ -11,7 +16,7 @@ ALU(x= ,y= ,zx= ,nx= ,zy= ,ny= ,f= ,no= ,out= ,zr= ,ng= );
 And16(a= ,b= ,out= );
 And(a= ,b= ,out= );
 ARegister(in= ,load= ,out= );
-Bit(in= ,load= ,out= ); 
+Bit(in= ,load= ,out= );
 CPU(inM= ,instruction= ,reset= ,outM= ,writeM= ,addressM= ,pc= );
 DFF(in= ,out= );
 DMux4Way(in= ,sel= ,a= ,b= ,c= ,d= );
